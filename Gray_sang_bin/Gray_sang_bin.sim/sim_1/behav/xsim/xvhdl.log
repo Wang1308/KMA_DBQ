@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gray_sang_bin/Gray_sang_bin.srcs/sources_1/new/Gray_sang_bin.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Gray_sang_bin'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Gray_sang_bin/Gray_sang_bin.srcs/sim_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test'
