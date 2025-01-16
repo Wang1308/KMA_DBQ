@@ -1,0 +1,22 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto bd2b6b944c414b6982a9efe69cc2689a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_ledseg_behav xil_defaultlib.test_ledseg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.adder1 [adder1_default]
+Compiling architecture behavioral of entity xil_defaultlib.register_adder [register_adder_default]
+Compiling architecture behav of entity xil_defaultlib.div10 [div10_default]
+Compiling architecture behavioral of entity xil_defaultlib.Adder_register [adder_register_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mach_giai_ma_led [mach_giai_ma_led_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mach_dem_LEDseg [mach_dem_ledseg_default]
+Compiling architecture behavioral of entity xil_defaultlib.test_ledseg
+Built simulation snapshot test_ledseg_behav

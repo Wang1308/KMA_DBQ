@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Adder+register/Adder+register.srcs/sources_1/new/Mach_dem_LEDseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Mach_dem_LEDseg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Adder+register/Adder+register.srcs/sim_1/new/test_ledseg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'test_ledseg'

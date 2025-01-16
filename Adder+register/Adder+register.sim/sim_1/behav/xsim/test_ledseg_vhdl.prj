@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Adder+register.srcs/sources_1/new/Adder+register.vhd" \
+"../../../../../Mach_giai_ma_LED/Mach_giai_ma_LED.srcs/sources_1/new/Mach_giai_ma_led.vhd" \
+"../../../../Adder+register.srcs/sources_1/new/Mach_dem_LEDseg.vhd" \
+"../../../../Adder+register.srcs/sim_1/new/test_ledseg.vhd" \
+
+# Do not sort compile order
+nosort
