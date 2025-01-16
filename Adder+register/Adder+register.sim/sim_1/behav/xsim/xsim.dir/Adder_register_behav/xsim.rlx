@@ -1,0 +1,12 @@
+
+{ 
+    crc :  10978969325618536644  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto bd2b6b944c414b6982a9efe69cc2689a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Adder_register_behav xil_defaultlib.Adder_register" , 
+    buildDate : "Jun 10 2021" , 
+    buildTime : "20:04:57" , 
+    linkCmd : "D:\\Vivado\\2021.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Adder_register_behav/xsimk.exe\"   \"xsim.dir/Adder_register_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Adder_register_behav/obj/xsim_1.win64.obj\" -L\"D:\\Vivado\\2021.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

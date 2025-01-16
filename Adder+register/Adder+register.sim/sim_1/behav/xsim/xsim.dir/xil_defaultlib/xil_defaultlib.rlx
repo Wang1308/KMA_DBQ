@@ -1,0 +1,9 @@
+0.7
+2020.2
+Jun 10 2021
+20:04:57
+D:/Adder+register/Adder+register.srcs/sim_1/new/test_bench_count++.vhd,1718871473,vhdl,,,,test_bench_count,,,,,,,,
+D:/Adder+register/Adder+register.srcs/sim_1/new/test_ledseg.vhd,1718872922,vhdl,,,,test_ledseg,,,,,,,,
+D:/Adder+register/Adder+register.srcs/sources_1/new/Adder+register.vhd,1719375949,vhdl,D:/Adder+register/Adder+register.srcs/sources_1/new/Mach_dem_LEDseg.vhd,,,adder_register;div10,,,,,,,,
+D:/Adder+register/Adder+register.srcs/sources_1/new/Mach_dem_LEDseg.vhd,1719549708,vhdl,D:/Adder+register/Adder+register.srcs/sim_1/new/test_ledseg.vhd,,,mach_dem_ledseg,,,,,,,,
+D:/Mach_giai_ma_LED/Mach_giai_ma_LED.srcs/sources_1/new/Mach_giai_ma_led.vhd,1720608987,vhdl,D:/Adder+register/Adder+register.srcs/sources_1/new/Mach_dem_LEDseg.vhd,,,mach_giai_ma_led,,,,,,,,
