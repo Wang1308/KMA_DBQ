@@ -1,0 +1,1 @@
+-wto "a1c83761fe444174b0eed702c295d7be" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Chia_nhi_phan_behav" "xil_defaultlib.Chia_nhi_phan" -log "elaborate.log" 

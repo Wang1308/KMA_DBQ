@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4950599323178586430  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto a1c83761fe444174b0eed702c295d7be --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Chia_nhi_phan_behav xil_defaultlib.Chia_nhi_phan" , 
+    buildDate : "Jun 10 2021" , 
+    buildTime : "20:04:57" , 
+    linkCmd : "D:\\Vivado\\2021.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Chia_nhi_phan_behav/xsimk.exe\"   \"xsim.dir/Chia_nhi_phan_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Chia_nhi_phan_behav/obj/xsim_1.win64.obj\" -L\"D:\\Vivado\\2021.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

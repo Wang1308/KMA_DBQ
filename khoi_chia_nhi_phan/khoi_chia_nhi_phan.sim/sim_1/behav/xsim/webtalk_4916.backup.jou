@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Jul 12 00:54:36 2024
+# Process ID: 4916
+# Current directory: D:/khoi_chia_nhi_phan/khoi_chia_nhi_phan.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source D:/khoi_chia_nhi_phan/khoi_chia_nhi_phan.sim/sim_1/behav/xsim/xsim.dir/Chia_nhi_phan_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/khoi_chia_nhi_phan/khoi_chia_nhi_phan.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: D:/khoi_chia_nhi_phan/khoi_chia_nhi_phan.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source D:/khoi_chia_nhi_phan/khoi_chia_nhi_phan.sim/sim_1/behav/xsim/xsim.dir/Chia_nhi_phan_behav/webtalk/xsim_webtalk.tcl -notrace
