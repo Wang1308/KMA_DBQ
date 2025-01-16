@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Jul 11 12:27:18 2024
+# Process ID: 5692
+# Current directory: D:/Adder+register
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7064 D:\Adder+register\Adder+register.xpr
+# Log file: D:/Adder+register/vivado.log
+# Journal file: D:/Adder+register\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Adder+register/Adder+register.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source test_bench_count.tcl
+run 1000 s
+run 1000 s
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Mach_dem_LEDseg [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top test_ledseg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source test_ledseg.tcl
+run 1000 s
+close_sim

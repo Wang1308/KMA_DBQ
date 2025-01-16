@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Jun 26 17:36:41 2024
+# Process ID: 3624
+# Current directory: D:/Adder+register
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1408 D:\Adder+register\Adder+register.xpr
+# Log file: D:/Adder+register/vivado.log
+# Journal file: D:/Adder+register\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Adder+register/Adder+register.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:09 . Memory (MB): peak = 1457.082 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Adder+register/Adder+register.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Jun 26 17:37:21 2024] Launched synth_1...
+Run output will be captured here: D:/Adder+register/Adder+register.runs/synth_1/runme.log
+[Wed Jun 26 17:37:22 2024] Launched impl_1...
+Run output will be captured here: D:/Adder+register/Adder+register.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun 26 17:40:03 2024...
