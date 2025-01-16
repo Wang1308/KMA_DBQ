@@ -1,0 +1,1 @@
+-wto "167de3a701864ba5b8974366516e52be" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Bi_sang_Gray_behav" "xil_defaultlib.Bi_sang_Gray" -log "elaborate.log" 
