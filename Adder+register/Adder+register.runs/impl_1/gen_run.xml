@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1719398241">
+  <File Type="PA-TCL" Name="Mach_dem_LEDseg.tcl"/>
+  <File Type="REPORTS-TCL" Name="Mach_dem_LEDseg_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Mach_dem_LEDseg.msk"/>
+  <File Type="RDI-RDI" Name="Mach_dem_LEDseg.vdi"/>
+  <File Type="BG-BIT" Name="Mach_dem_LEDseg.bit"/>
+  <File Type="BG-DRC" Name="Mach_dem_LEDseg.drc"/>
+  <File Type="BG-BGN" Name="Mach_dem_LEDseg.bgn"/>
+  <File Type="BG-BIN" Name="Mach_dem_LEDseg.bin"/>
+  <File Type="BITSTR-RBT" Name="Mach_dem_LEDseg.rbt"/>
+  <File Type="BITSTR-NKY" Name="Mach_dem_LEDseg.nky"/>
+  <File Type="BITSTR-BMM" Name="Mach_dem_LEDseg_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Mach_dem_LEDseg.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Mach_dem_LEDseg.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Mach_dem_LEDseg.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-HWDEF" Name="Mach_dem_LEDseg.hwdef"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Mach_dem_LEDseg_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DCP" Name="Mach_dem_LEDseg_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Mach_dem_LEDseg_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Mach_dem_LEDseg_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Mach_dem_LEDseg_timing_summary_routed.pb"/>
+  <File Type="OPT-DCP" Name="Mach_dem_LEDseg_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Mach_dem_LEDseg_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Mach_dem_LEDseg_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Mach_dem_LEDseg_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Mach_dem_LEDseg_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Mach_dem_LEDseg_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Mach_dem_LEDseg_postroute_physopt_bb.dcp"/>
+  <File Type="PDI-FILE" Name="Mach_dem_LEDseg.pdi"/>
+  <File Type="RCFI_FILE" Name="Mach_dem_LEDseg.rcfi"/>
+  <File Type="CFI_FILE" Name="Mach_dem_LEDseg.cfi"/>
+  <File Type="RNPI_FILE" Name="Mach_dem_LEDseg.rnpi"/>
+  <File Type="NPI_FILE" Name="Mach_dem_LEDseg.npi"/>
+  <File Type="RBD_FILE" Name="Mach_dem_LEDseg.rbd"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Adder+register.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Mach_giai_ma_LED/Mach_giai_ma_LED.srcs/sources_1/new/Mach_giai_ma_led.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mach_dem_LEDseg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Mach_dem_LEDseg"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="C:/Users/Admin/Downloads/Arty-A7-35-Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="C:/Users/Admin/Downloads/Arty-A7-35-Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2021"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
