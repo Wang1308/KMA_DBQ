@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Jul 10 17:45:34 2024
+# Process ID: 9740
+# Current directory: D:/Mach_giai_ma_LED
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9268 D:\Mach_giai_ma_LED\Mach_giai_ma_LED.xpr
+# Log file: D:/Mach_giai_ma_LED/vivado.log
+# Journal file: D:/Mach_giai_ma_LED\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Mach_giai_ma_LED/Mach_giai_ma_LED.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/Mach_giai_ma_LED/Mach_giai_ma_LED.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:08 . Memory (MB): peak = 1456.621 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 10 17:46:14 2024...
